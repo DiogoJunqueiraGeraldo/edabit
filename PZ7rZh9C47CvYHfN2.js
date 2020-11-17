@@ -41,7 +41,7 @@ const getValuesBasedOnRelativePositions = ({
     try {
       value = table[i][j];
     } catch (e) {
-      console.log(`Cound not get position [${i}][${j}]`);
+      console.log(`There was an error while trying to get position [${i}][${j}]`);
     }
 
     return value;
