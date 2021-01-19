@@ -1,0 +1,1 @@
+const isAdjacent = (m, r, c) => !!m[r][c];
